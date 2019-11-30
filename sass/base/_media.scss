@@ -1,0 +1,56 @@
+@media (max-width: 991px) {
+    .promo__wrapper {
+        align-items: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .header_contacts a {
+        font-size: 14px;
+    }
+    .reasons_wraper  {
+        flex-direction: column;
+    }
+    .button_md{
+        width: 100%;
+    }  
+}
+
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+    &__logo  {
+        max-width: 425px;
+    }
+    &__official{
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 300;
+        span {
+            font-weight: 500;
+        }
+    }
+    &_contacts {
+        margin-top: 20px;
+        a {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+    }
+    .button_col {
+        width: 250px;
+    }
+    .promo {
+    &__wrapper {
+        margin-top: 50px;
+    }
+    &__header, &__subheader {
+        text-align: center;
+    }
+    &__icons {
+        width: 100%;
+    }
+    }
+}
